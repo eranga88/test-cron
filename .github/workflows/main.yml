@@ -1,13 +1,13 @@
-name: Deploy_To_Firebase 
+# name: Deploy_To_Firebase 
 
-on:
-  schedule: ## Schedule the job to run at a particular time.
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '* * * * *'
+# on:
+#   schedule: ## Schedule the job to run at a particular time.
+#     # * is a special character in YAML so you have to quote this string
+#     - cron:  '* * * * *'
 
-jobs:
-  deploy: 
-    runs-on: ubuntu-latest  
-    steps: 
-      - name: test
-        run: ls
+# jobs:
+#   deploy: 
+#     runs-on: ubuntu-latest  
+#     steps: 
+#       - name: test
+#         run: ls
